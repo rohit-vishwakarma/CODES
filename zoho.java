@@ -114,6 +114,22 @@ public class zoho{
         }
         return arr;
     }
+    // public static int[] solve(Node node, double[] arr){
+    //     int[] res = new int[2];
+    //     int sum =0, size = 0;
+    //     for(Node child : node.children){
+    //         res =solve(child, arr);
+    //         sum += res[0];
+    //         size += res[1];
+    //     }
+    //     size += node.children.size();
+    //     sum += node.data;
+    //     if((double)sum/(size) > arr[0]){
+    //         arr[0] = (double)sum/ (size);
+    //         arr[1] = (double)node.data;
+    //     }
+    //     return new int[]{sum, size};
+    // }
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
