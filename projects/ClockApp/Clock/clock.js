@@ -1,6 +1,6 @@
 // let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]; 
 let countries = ["India", "Australia", "USA"];
-let times = ["+0:0", "+5:30", "-10:30"]
+let times = ["+0:0", "+5:30", "-10:30"];
 
 function currentTime(cidx){
     let date = new Date();
@@ -74,4 +74,4 @@ function currentTime(cidx){
     let t = setTimeout(function(){ currentTime(cidx) }, 1000);
     // console.log(date, hh, mm, ss, countryName);
 }
-currentTime(0);
+currentTime(1);
